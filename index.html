@@ -162,4 +162,62 @@ function highlight(text, part) {
 
 function keyControl(e) {
     const items = document.querySelectorAll('#suggestions div');
-    if (!items.length) re
+    if (!items.length) return;
+
+    if (e.key==='ArrowDown') {
+        selectedIndex = (selectedIndex+1) % items.length;
+        updateHighlight(items);
+    }
+    if (e.key==='ArrowUp') {
+        selectedIndex = (selectedIndex-1+items.length) % items.length;
+        updateHighlight(items);
+    }
+    if (e.key==='Enter' && selectedIndex>=0) {
+        items[selectedIndex].click();
+    }
+}
+
+function updateHighlight(items) {
+    items.forEach((el,i)=>{
+        el.style.background = (i===selectedIndex? '#d6ddff':'white');
+    });
+}
+
+function selectCareer(name) {
+    busqueda.value = name;
+    suggestions.style.display='none';
+    buscar();
+}
+
+function buscar() {
+    const carrera = busqueda.value.toLowerCase();
+    const found = allCareers.find(c => c.carrera.toLowerCase()===carrera);
+    if (!found) { resultado.innerHTML='<div style="color:#d33">Carrera no encontrada</div>'; return; }
+
+    resultado.innerHTML = `
+        <h3>${found.carrera}</h3>
+        <div class='stats'>
+            <div class='stat'>Inserción: <strong>${found.insercion_laboral}%</strong></div>
+            <div class='stat'>Salario: <strong>$${found.salario_promedio}</strong></div>
+            <div class='stat'>Demanda: <strong>${found.demanda}</strong></div>
+            <div class='stat'>Tendencia: <strong>${found.tendencia}</strong></div>
+        </div>`;
+
+    drawGraph(found);
+}
+
+function drawGraph(c) {
+    const ctx = document.getElementById('grafico');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Inserción laboral'],
+            datasets: [{ label: c.carrera, data: [c.insercion_laboral] }]
+        }
+    });
+}
+
+function toggleMode(){ document.body.classList.toggle('dark'); }
+</script>
+</body>
+</html>
