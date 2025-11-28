@@ -1,85 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <title>Inserción Laboral Argentina</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Consulta la inserción laboral de carreras universitarias en Argentina con buscador inteligente, gráficos y datos actualizados.">
+
+<!-- ADSENSE (AGREGÁ TU CLIENT-ID) -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=TU-CODIGO-ADSENSE" crossorigin="anonymous"></script>
+
+<!-- CHART JS -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <style>
     body {
-        font-family: Arial, sans-serif;
-        background: #f5f7fa;
+        font-family: "Inter", Arial, sans-serif;
+        background: #eef2f6;
         margin: 0;
         padding: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        transition: 0.4s;
+        transition: background 0.4s;
     }
-    body.dark {
-        background: #1b1e23;
-        color: #f0f0f0;
+    body.dark { background: #0f141a; color: #f0f0f0; }
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        opacity: 0;
+        animation: fadeIn 0.7s ease forwards;
     }
-    h1 { margin-bottom: 20px; font-size: 24px; }
+
+    @keyframes fadeIn { from {opacity:0; transform:translateY(10px);} to {opacity:1; transform:translateY(0);} }
+
     .card {
         background: white;
-        padding: 30px;
-        border-radius: 14px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        padding: 35px;
+        border-radius: 18px;
+        box-shadow: 0 4px 18px rgba(0,0,0,0.12);
         width: 100%;
-        max-width: 720px;
+        max-width: 750px;
         text-align: center;
         transition: 0.3s;
+        opacity: 0;
+        animation: fadeIn 0.8s ease forwards 0.2s;
     }
-    body.dark .card {
-        background: #2a2e35;
-        color: #f0f0f0;
-    }
-    .row { display:flex; gap:12px; align-items:center; justify-content:center; flex-wrap:wrap; }
+    body.dark .card { background: #1c222b; color:white; }
+
     input {
-        width: 60%;
-        padding: 12px;
+        width: 70%;
+        padding: 14px;
+        border-radius: 10px;
         border: 1px solid #ccc;
-        border-radius: 8px;
-        font-size: 16px;
-    }
-    #suggestions {
-        width: 60%;
-        margin: auto;
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-        margin-top: 5px;
-        display: none;
-        position: relative;
-        z-index: 10;
-        text-align: left;
-        max-height: 200px;
-        overflow-y: auto;
-    }
-    #suggestions div { padding: 10px; cursor: pointer; }
-    #suggestions div:hover { background: #f0f0f0; }
-    body.dark #suggestions { background: #2a2e35; }
-    body.dark #suggestions div:hover { background: #3a3f47; }
-    button {
-        margin-top: 10px;
-        background: #4a73ff;
-        border: none;
-        padding: 12px 20px;
-        border-radius: 8px;
-        color: white;
-        font-size: 16px;
-        cursor: pointer;
+        font-size: 17px;
         transition: 0.3s;
     }
-    button:hover { background: #2f54d8; }
-    #resultado { margin-top: 20px; font-size: 18px; }
-    .toggle { position: absolute; top: 20px; right: 20px; cursor: pointer; padding: 10px; border-radius: 8px; background: #ddd; transition: 0.3s; }
-    body.dark .toggle { background: #444; color: white; }
-    .stats { display:flex; gap:12px; margin-top:12px; justify-content:center; flex-wrap:wrap; }
-    .stat { background: rgba(0,0,0,0.03); padding:10px 14px; border-radius:8px; }
-    @media (max-width: 600px) {
-        input, #suggestions { width: 95%; }
-        .card { width: 95%; padding:20px; }
+    input:focus { border-color:#4a73ff; outline:none; }
+
+    #suggestions {
+        width: 70%;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+        margin-top: 5px;
+        display: none;
+        position: absolute;
+        z-index: 20;
+        text-align: left;
+        max-height: 260px;
+        overflow-y: auto;
+    }
+    #suggestions div {
+        padding: 12px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    #suggestions div:hover { background:#e8e8e8; }
+    body.dark #suggestions { background:#1c222b; }
+    body.dark #suggestions div:hover { background:#2a323d; }
+
+    button {
+        background: #4a73ff;
+        border:none;
+        padding: 12px 24px;
+        border-radius:10px;
+        color:white;
+        font-size: 16px;
+        cursor: pointer;
+        transition:0.3s;
+    }
+    button:hover { background:#2f54d8; }
+
+    .toggle {
+        position: absolute;
+        top:20px;
+        right:20px;
+        background:#ddd;
+        padding:10px 14px;
+        border-radius:10px;
+        cursor:pointer;
+        transition:0.3s;
+    }
+    body.dark .toggle { background:#333; color:white; }
+
+    .stats { margin-top:20px; display:flex; gap:12px; flex-wrap:wrap; justify-content:center; }
+    .stat {
+        background: rgba(0,0,0,0.05);
+        padding: 12px 16px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    body.dark .stat { background: rgba(255,255,255,0.08); }
+
+    canvas { margin-top: 25px; max-width: 100%; }
+
+    @media(max-width:600px) {
+        input,#suggestions { width: 95%; }
+        .card { padding:20px; }
     }
 </style>
 </head>
@@ -87,68 +125,41 @@
 <div class="toggle" onclick="toggleMode()">Modo oscuro</div>
 <h1>Inserción Laboral Argentina</h1>
 <div class="card">
-    <div class="row">
-        <input id="busqueda" placeholder="Escribí una carrera..." oninput="predict()">
-        <button onclick="buscar()">Buscar</button>
-    </div>
+    <input id="busqueda" placeholder="Escribí una carrera..." oninput="predict()" onkeydown="keyControl(event)">
     <div id="suggestions"></div>
+    <button onclick="buscar()">Buscar</button>
     <div id="resultado"></div>
+    <canvas id="grafico"></canvas>
 </div>
 
 <script>
 let allCareers = [];
+let selectedIndex = -1;
 
 async function loadData() {
-    try {
-        const res = await fetch("/api/careers");
-        allCareers = await res.json();
-    } catch(e) {
-        // fallback to external host if running frontend from file:// and backend on localhost
-        try {
-            const res2 = await fetch("http://127.0.0.1:5000/api/careers");
-            allCareers = await res2.json();
-        } catch(err) {
-            console.error('No se pudo cargar datos:', err);
-        }
-    }
+    const res = await fetch('/api/careers');
+    allCareers = await res.json();
 }
 loadData();
 
 function predict() {
-    const text = document.getElementById("busqueda").value.toLowerCase();
-    const box = document.getElementById("suggestions");
-    if (!text) { box.style.display = "none"; return; }
-    const filtered = allCareers.filter(c => c.carrera.toLowerCase().includes(text)).slice(0,12);
-    box.innerHTML = filtered.map(c => `<div onclick="selectCareer('${c.carrera.replace("'","\'")}')">${c.carrera}</div>`).join("");
-    box.style.display = filtered.length ? "block" : "none";
+    const text = busqueda.value.toLowerCase();
+    const box = document.getElementById('suggestions');
+    if (!text) { box.style.display='none'; return; }
+
+    const filtered = allCareers.filter(c => c.carrera.toLowerCase().includes(text)).slice(0,10);
+
+    box.innerHTML = filtered.map((c,i)=>`<div id="sug-${i}" onclick="selectCareer('${c.carrera}')">${highlight(c.carrera,text)}</div>`).join('');
+    box.style.display = filtered.length? 'block':'none';
+    selectedIndex = -1;
 }
 
-function selectCareer(name) {
-    document.getElementById("busqueda").value = name;
-    document.getElementById("suggestions").style.display = "none";
-    buscar();
+function highlight(text, part) {
+    const idx = text.toLowerCase().indexOf(part.toLowerCase());
+    if (idx===-1) return text;
+    return text.substring(0,idx) + `<strong>` + text.substring(idx,idx+part.length) + `</strong>` + text.substring(idx+part.length);
 }
 
-async function buscar() {
-    const carrera = document.getElementById("busqueda").value.toLowerCase();
-    const found = allCareers.find(c => c.carrera.toLowerCase() === carrera);
-    const out = document.getElementById("resultado");
-    if (!found) {
-        out.innerHTML = '<div style="color:#d00">Carrera no encontrada.</div>';
-        return;
-    }
-    out.innerHTML = `<h3>${found.carrera}</h3>
-    <div class="stats">
-      <div class="stat">Inserción laboral: <strong>${found.insercion_laboral}%</strong></div>
-      <div class="stat">Salario promedio: <strong>$${found.salario_promedio}</strong></div>
-      <div class="stat">Demanda: <strong>${found.demanda}</strong></div>
-      <div class="stat">Tendencia: <strong>${found.tendencia}</strong></div>
-    </div>`;
-}
-
-function toggleMode() {
-    document.body.classList.toggle("dark");
-}
-</script>
-</body>
-</html>
+function keyControl(e) {
+    const items = document.querySelectorAll('#suggestions div');
+    if (!items.length) re
