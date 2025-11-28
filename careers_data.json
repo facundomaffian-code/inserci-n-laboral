@@ -1,0 +1,1112 @@
+[
+  {
+    "carrera": "Medicina",
+    "area": "Salud",
+    "insercion_laboral": 47,
+    "salario_promedio": 415468,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 2
+  },
+  {
+    "carrera": "Odontología",
+    "area": "Salud",
+    "insercion_laboral": 53,
+    "salario_promedio": 762449,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 2
+  },
+  {
+    "carrera": "Enfermería",
+    "area": "Salud",
+    "insercion_laboral": 79,
+    "salario_promedio": 452063,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 5,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Kinesiología",
+    "area": "Salud",
+    "insercion_laboral": 61,
+    "salario_promedio": 323373,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 8,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Fonoaudiología",
+    "area": "Otras",
+    "insercion_laboral": 67,
+    "salario_promedio": 627255,
+    "demanda": "Muy alta",
+    "tendencia": "Estable",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 9
+  },
+  {
+    "carrera": "Terapia ocupacional",
+    "area": "Otras",
+    "insercion_laboral": 54,
+    "salario_promedio": 279294,
+    "demanda": "Baja",
+    "tendencia": "Estable",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 11
+  },
+  {
+    "carrera": "Nutrición",
+    "area": "Salud",
+    "insercion_laboral": 95,
+    "salario_promedio": 820291,
+    "demanda": "Media",
+    "tendencia": "Estable",
+    "desempleo": 1,
+    "tiempo_primer_empleo": 6
+  },
+  {
+    "carrera": "Bioquímica",
+    "area": "Otras",
+    "insercion_laboral": 51,
+    "salario_promedio": 835519,
+    "demanda": "Alta",
+    "tendencia": "Bajando",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Farmacia",
+    "area": "Otras",
+    "insercion_laboral": 44,
+    "salario_promedio": 462281,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Instrumentación quirúrgica",
+    "area": "Otras",
+    "insercion_laboral": 58,
+    "salario_promedio": 860439,
+    "demanda": "Alta",
+    "tendencia": "Subiendo",
+    "desempleo": 9,
+    "tiempo_primer_empleo": 2
+  },
+  {
+    "carrera": "Radiología",
+    "area": "Otras",
+    "insercion_laboral": 69,
+    "salario_promedio": 381306,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 12
+  },
+  {
+    "carrera": "Psicología",
+    "area": "Sociales y Humanas",
+    "insercion_laboral": 70,
+    "salario_promedio": 315891,
+    "demanda": "Baja",
+    "tendencia": "Estable",
+    "desempleo": 6,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Psicopedagogía",
+    "area": "Sociales y Humanas",
+    "insercion_laboral": 65,
+    "salario_promedio": 344177,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Trabajo Social",
+    "area": "Sociales y Humanas",
+    "insercion_laboral": 41,
+    "salario_promedio": 834562,
+    "demanda": "Muy alta",
+    "tendencia": "Estable",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 5
+  },
+  {
+    "carrera": "Ciencias de la Educación",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 69,
+    "salario_promedio": 813187,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Ingeniería en Sistemas",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 86,
+    "salario_promedio": 552181,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 3,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Ingeniería Informática",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 89,
+    "salario_promedio": 345466,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 3,
+    "tiempo_primer_empleo": 6
+  },
+  {
+    "carrera": "Ingeniería Industrial",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 66,
+    "salario_promedio": 485847,
+    "demanda": "Alta",
+    "tendencia": "Bajando",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 6
+  },
+  {
+    "carrera": "Ingeniería Civil",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 86,
+    "salario_promedio": 518829,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 3,
+    "tiempo_primer_empleo": 9
+  },
+  {
+    "carrera": "Ingeniería Electrónica",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 44,
+    "salario_promedio": 259022,
+    "demanda": "Alta",
+    "tendencia": "Subiendo",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Ingeniería Química",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 64,
+    "salario_promedio": 789766,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 8,
+    "tiempo_primer_empleo": 6
+  },
+  {
+    "carrera": "Ingeniería Mecánica",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 60,
+    "salario_promedio": 693454,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 8,
+    "tiempo_primer_empleo": 7
+  },
+  {
+    "carrera": "Ingeniería en Telecomunicaciones",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 69,
+    "salario_promedio": 780970,
+    "demanda": "Media",
+    "tendencia": "Estable",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 9
+  },
+  {
+    "carrera": "Ingeniería Biomédica",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 56,
+    "salario_promedio": 292946,
+    "demanda": "Alta",
+    "tendencia": "Subiendo",
+    "desempleo": 9,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Ingeniería Ambiental",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 47,
+    "salario_promedio": 421265,
+    "demanda": "Media",
+    "tendencia": "Estable",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Ingeniería en Alimentos",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 71,
+    "salario_promedio": 775465,
+    "demanda": "Baja",
+    "tendencia": "Estable",
+    "desempleo": 6,
+    "tiempo_primer_empleo": 7
+  },
+  {
+    "carrera": "Ingeniería en Energía",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 68,
+    "salario_promedio": 653282,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Ingeniería en Minas",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 81,
+    "salario_promedio": 565090,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 4,
+    "tiempo_primer_empleo": 7
+  },
+  {
+    "carrera": "Ingeniería Naval",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 56,
+    "salario_promedio": 848772,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 9,
+    "tiempo_primer_empleo": 11
+  },
+  {
+    "carrera": "Ingeniería Aeronáutica",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 47,
+    "salario_promedio": 595697,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Contador Público",
+    "area": "Económicas",
+    "insercion_laboral": 53,
+    "salario_promedio": 892977,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Licenciatura en Economía",
+    "area": "Económicas",
+    "insercion_laboral": 86,
+    "salario_promedio": 485515,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 3,
+    "tiempo_primer_empleo": 2
+  },
+  {
+    "carrera": "Administración de Empresas",
+    "area": "Económicas",
+    "insercion_laboral": 53,
+    "salario_promedio": 333421,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Marketing",
+    "area": "Económicas",
+    "insercion_laboral": 40,
+    "salario_promedio": 640652,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 7
+  },
+  {
+    "carrera": "Comercio Internacional",
+    "area": "Económicas",
+    "insercion_laboral": 58,
+    "salario_promedio": 439193,
+    "demanda": "Alta",
+    "tendencia": "Subiendo",
+    "desempleo": 9,
+    "tiempo_primer_empleo": 7
+  },
+  {
+    "carrera": "Logística",
+    "area": "Económicas",
+    "insercion_laboral": 46,
+    "salario_promedio": 875640,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 12
+  },
+  {
+    "carrera": "Recursos Humanos",
+    "area": "Económicas",
+    "insercion_laboral": 48,
+    "salario_promedio": 560337,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 7
+  },
+  {
+    "carrera": "Actuaría",
+    "area": "Otras",
+    "insercion_laboral": 73,
+    "salario_promedio": 341860,
+    "demanda": "Alta",
+    "tendencia": "Subiendo",
+    "desempleo": 6,
+    "tiempo_primer_empleo": 5
+  },
+  {
+    "carrera": "Gestión Aduanera",
+    "area": "Otras",
+    "insercion_laboral": 61,
+    "salario_promedio": 828002,
+    "demanda": "Baja",
+    "tendencia": "Estable",
+    "desempleo": 8,
+    "tiempo_primer_empleo": 11
+  },
+  {
+    "carrera": "Abogacía",
+    "area": "Derecho",
+    "insercion_laboral": 75,
+    "salario_promedio": 463282,
+    "demanda": "Muy alta",
+    "tendencia": "Subiendo",
+    "desempleo": 5,
+    "tiempo_primer_empleo": 6
+  },
+  {
+    "carrera": "Notariado",
+    "area": "Derecho",
+    "insercion_laboral": 40,
+    "salario_promedio": 307041,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Criminalística",
+    "area": "Derecho",
+    "insercion_laboral": 57,
+    "salario_promedio": 704074,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 9,
+    "tiempo_primer_empleo": 5
+  },
+  {
+    "carrera": "Ciencias Políticas",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 52,
+    "salario_promedio": 643484,
+    "demanda": "Baja",
+    "tendencia": "Estable",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 2
+  },
+  {
+    "carrera": "Relaciones Internacionales",
+    "area": "Otras",
+    "insercion_laboral": 72,
+    "salario_promedio": 297160,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 6,
+    "tiempo_primer_empleo": 1
+  },
+  {
+    "carrera": "Sociología",
+    "area": "Sociales y Humanas",
+    "insercion_laboral": 65,
+    "salario_promedio": 791888,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 12
+  },
+  {
+    "carrera": "Antropología",
+    "area": "Sociales y Humanas",
+    "insercion_laboral": 80,
+    "salario_promedio": 389332,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 4,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Historia",
+    "area": "Sociales y Humanas",
+    "insercion_laboral": 50,
+    "salario_promedio": 787036,
+    "demanda": "Muy alta",
+    "tendencia": "Subiendo",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Filosofía",
+    "area": "Sociales y Humanas",
+    "insercion_laboral": 57,
+    "salario_promedio": 880684,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 9,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Geografía",
+    "area": "Otras",
+    "insercion_laboral": 90,
+    "salario_promedio": 817947,
+    "demanda": "Baja",
+    "tendencia": "Subiendo",
+    "desempleo": 2,
+    "tiempo_primer_empleo": 1
+  },
+  {
+    "carrera": "Comunicación Social",
+    "area": "Otras",
+    "insercion_laboral": 80,
+    "salario_promedio": 274962,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 4,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Periodismo",
+    "area": "Otras",
+    "insercion_laboral": 42,
+    "salario_promedio": 553782,
+    "demanda": "Alta",
+    "tendencia": "Bajando",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 9
+  },
+  {
+    "carrera": "Publicidad",
+    "area": "Otras",
+    "insercion_laboral": 54,
+    "salario_promedio": 523697,
+    "demanda": "Muy alta",
+    "tendencia": "Estable",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Relaciones Públicas",
+    "area": "Otras",
+    "insercion_laboral": 50,
+    "salario_promedio": 618275,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 11
+  },
+  {
+    "carrera": "Arquitectura",
+    "area": "Artes y Diseño",
+    "insercion_laboral": 52,
+    "salario_promedio": 457923,
+    "demanda": "Muy alta",
+    "tendencia": "Estable",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 2
+  },
+  {
+    "carrera": "Diseño Gráfico",
+    "area": "Artes y Diseño",
+    "insercion_laboral": 67,
+    "salario_promedio": 605270,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Diseño Industrial",
+    "area": "Artes y Diseño",
+    "insercion_laboral": 93,
+    "salario_promedio": 865881,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 2,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Diseño de Indumentaria",
+    "area": "Artes y Diseño",
+    "insercion_laboral": 74,
+    "salario_promedio": 686045,
+    "demanda": "Muy alta",
+    "tendencia": "Subiendo",
+    "desempleo": 6,
+    "tiempo_primer_empleo": 5
+  },
+  {
+    "carrera": "Diseño de Interiores",
+    "area": "Artes y Diseño",
+    "insercion_laboral": 64,
+    "salario_promedio": 616533,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 8,
+    "tiempo_primer_empleo": 11
+  },
+  {
+    "carrera": "Artes Plásticas",
+    "area": "Artes y Diseño",
+    "insercion_laboral": 89,
+    "salario_promedio": 475164,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 3,
+    "tiempo_primer_empleo": 12
+  },
+  {
+    "carrera": "Música",
+    "area": "Otras",
+    "insercion_laboral": 48,
+    "salario_promedio": 785102,
+    "demanda": "Muy alta",
+    "tendencia": "Estable",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Teatro",
+    "area": "Otras",
+    "insercion_laboral": 47,
+    "salario_promedio": 710042,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Cine y TV",
+    "area": "Artes y Diseño",
+    "insercion_laboral": 67,
+    "salario_promedio": 422312,
+    "demanda": "Alta",
+    "tendencia": "Subiendo",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Fotografía",
+    "area": "Artes y Diseño",
+    "insercion_laboral": 41,
+    "salario_promedio": 446001,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Animación 3D",
+    "area": "Artes y Diseño",
+    "insercion_laboral": 95,
+    "salario_promedio": 359529,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 1,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Ciencias Exactas",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 50,
+    "salario_promedio": 322286,
+    "demanda": "Alta",
+    "tendencia": "Subiendo",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Matemática",
+    "area": "Otras",
+    "insercion_laboral": 63,
+    "salario_promedio": 392486,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 8,
+    "tiempo_primer_empleo": 11
+  },
+  {
+    "carrera": "Física",
+    "area": "Otras",
+    "insercion_laboral": 75,
+    "salario_promedio": 475911,
+    "demanda": "Alta",
+    "tendencia": "Bajando",
+    "desempleo": 5,
+    "tiempo_primer_empleo": 5
+  },
+  {
+    "carrera": "Química",
+    "area": "Otras",
+    "insercion_laboral": 87,
+    "salario_promedio": 265086,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 3,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Biología",
+    "area": "Otras",
+    "insercion_laboral": 46,
+    "salario_promedio": 391665,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Ciencias Ambientales",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 58,
+    "salario_promedio": 549225,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 9,
+    "tiempo_primer_empleo": 9
+  },
+  {
+    "carrera": "Geología",
+    "area": "Otras",
+    "insercion_laboral": 67,
+    "salario_promedio": 553736,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Veterinaria",
+    "area": "Salud",
+    "insercion_laboral": 49,
+    "salario_promedio": 720605,
+    "demanda": "Alta",
+    "tendencia": "Bajando",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Agronomía",
+    "area": "Agro y Producción",
+    "insercion_laboral": 48,
+    "salario_promedio": 452039,
+    "demanda": "Alta",
+    "tendencia": "Bajando",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 7
+  },
+  {
+    "carrera": "Producción Animal",
+    "area": "Otras",
+    "insercion_laboral": 51,
+    "salario_promedio": 467871,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 1
+  },
+  {
+    "carrera": "Tecnología de Alimentos",
+    "area": "Otras",
+    "insercion_laboral": 45,
+    "salario_promedio": 420811,
+    "demanda": "Alta",
+    "tendencia": "Subiendo",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 9
+  },
+  {
+    "carrera": "Enología",
+    "area": "Agro y Producción",
+    "insercion_laboral": 42,
+    "salario_promedio": 886722,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Forestales",
+    "area": "Agro y Producción",
+    "insercion_laboral": 68,
+    "salario_promedio": 873503,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 12
+  },
+  {
+    "carrera": "Paisajismo",
+    "area": "Otras",
+    "insercion_laboral": 75,
+    "salario_promedio": 339447,
+    "demanda": "Baja",
+    "tendencia": "Estable",
+    "desempleo": 5,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Turismo",
+    "area": "Otras",
+    "insercion_laboral": 72,
+    "salario_promedio": 394109,
+    "demanda": "Media",
+    "tendencia": "Estable",
+    "desempleo": 6,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Hotelería",
+    "area": "Otras",
+    "insercion_laboral": 74,
+    "salario_promedio": 335770,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 6,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Gastronomía",
+    "area": "Otras",
+    "insercion_laboral": 44,
+    "salario_promedio": 351203,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 12
+  },
+  {
+    "carrera": "Guía de Turismo",
+    "area": "Otras",
+    "insercion_laboral": 88,
+    "salario_promedio": 351516,
+    "demanda": "Baja",
+    "tendencia": "Estable",
+    "desempleo": 3,
+    "tiempo_primer_empleo": 9
+  },
+  {
+    "carrera": "Analista de Sistemas",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 50,
+    "salario_promedio": 780194,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 1
+  },
+  {
+    "carrera": "Tecnicatura en Programación",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 42,
+    "salario_promedio": 851039,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 7
+  },
+  {
+    "carrera": "Técnico en Enfermería",
+    "area": "Salud",
+    "insercion_laboral": 41,
+    "salario_promedio": 689719,
+    "demanda": "Baja",
+    "tendencia": "Subiendo",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Técnico en Radiología",
+    "area": "Otras",
+    "insercion_laboral": 42,
+    "salario_promedio": 269151,
+    "demanda": "Muy alta",
+    "tendencia": "Estable",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Técnico en Laboratorio",
+    "area": "Otras",
+    "insercion_laboral": 59,
+    "salario_promedio": 352164,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 9,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Técnico en Seguridad e Higiene",
+    "area": "Otras",
+    "insercion_laboral": 48,
+    "salario_promedio": 668499,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 11
+  },
+  {
+    "carrera": "Técnico en Sonido",
+    "area": "Otras",
+    "insercion_laboral": 54,
+    "salario_promedio": 526706,
+    "demanda": "Baja",
+    "tendencia": "Estable",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 11
+  },
+  {
+    "carrera": "Técnico en Audiovisuales",
+    "area": "Otras",
+    "insercion_laboral": 54,
+    "salario_promedio": 318216,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 10,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Técnico en Logística",
+    "area": "Económicas",
+    "insercion_laboral": 64,
+    "salario_promedio": 698301,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 8,
+    "tiempo_primer_empleo": 7
+  },
+  {
+    "carrera": "Técnico en Petróleo",
+    "area": "Otras",
+    "insercion_laboral": 45,
+    "salario_promedio": 635726,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 12
+  },
+  {
+    "carrera": "Técnico en Comercio Exterior",
+    "area": "Económicas",
+    "insercion_laboral": 56,
+    "salario_promedio": 780540,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 9,
+    "tiempo_primer_empleo": 11
+  },
+  {
+    "carrera": "Técnico en Administración",
+    "area": "Económicas",
+    "insercion_laboral": 49,
+    "salario_promedio": 590628,
+    "demanda": "Muy alta",
+    "tendencia": "Bajando",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 2
+  },
+  {
+    "carrera": "Técnico en Recursos Humanos",
+    "area": "Económicas",
+    "insercion_laboral": 41,
+    "salario_promedio": 673772,
+    "demanda": "Media",
+    "tendencia": "Bajando",
+    "desempleo": 12,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Técnico en Diseño",
+    "area": "Artes y Diseño",
+    "insercion_laboral": 46,
+    "salario_promedio": 835850,
+    "demanda": "Muy alta",
+    "tendencia": "Estable",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Técnico en Energía Renovable",
+    "area": "Otras",
+    "insercion_laboral": 56,
+    "salario_promedio": 898614,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 9,
+    "tiempo_primer_empleo": 9
+  },
+  {
+    "carrera": "Técnico en Mantenimiento Industrial",
+    "area": "Otras",
+    "insercion_laboral": 94,
+    "salario_promedio": 499523,
+    "demanda": "Alta",
+    "tendencia": "Bajando",
+    "desempleo": 2,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Técnico Electromecánico",
+    "area": "Otras",
+    "insercion_laboral": 87,
+    "salario_promedio": 839094,
+    "demanda": "Baja",
+    "tendencia": "Subiendo",
+    "desempleo": 3,
+    "tiempo_primer_empleo": 9
+  },
+  {
+    "carrera": "Educación Física",
+    "area": "Sociales y Humanas",
+    "insercion_laboral": 94,
+    "salario_promedio": 513688,
+    "demanda": "Alta",
+    "tendencia": "Subiendo",
+    "desempleo": 2,
+    "tiempo_primer_empleo": 10
+  },
+  {
+    "carrera": "Profesorado de Primaria",
+    "area": "Otras",
+    "insercion_laboral": 62,
+    "salario_promedio": 512082,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 8,
+    "tiempo_primer_empleo": 2
+  },
+  {
+    "carrera": "Profesorado de Inicial",
+    "area": "Otras",
+    "insercion_laboral": 61,
+    "salario_promedio": 384956,
+    "demanda": "Media",
+    "tendencia": "Estable",
+    "desempleo": 8,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Profesorado de Inglés",
+    "area": "Otras",
+    "insercion_laboral": 64,
+    "salario_promedio": 484331,
+    "demanda": "Alta",
+    "tendencia": "Subiendo",
+    "desempleo": 8,
+    "tiempo_primer_empleo": 4
+  },
+  {
+    "carrera": "Profesorado de Matemática",
+    "area": "Otras",
+    "insercion_laboral": 87,
+    "salario_promedio": 895127,
+    "demanda": "Baja",
+    "tendencia": "Bajando",
+    "desempleo": 3,
+    "tiempo_primer_empleo": 8
+  },
+  {
+    "carrera": "Profesorado de Historia",
+    "area": "Sociales y Humanas",
+    "insercion_laboral": 90,
+    "salario_promedio": 777167,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 2,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Licenciatura en Informática",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 65,
+    "salario_promedio": 388445,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 7,
+    "tiempo_primer_empleo": 12
+  },
+  {
+    "carrera": "Ciencia de Datos",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 49,
+    "salario_promedio": 384750,
+    "demanda": "Media",
+    "tendencia": "Subiendo",
+    "desempleo": 11,
+    "tiempo_primer_empleo": 3
+  },
+  {
+    "carrera": "Ciberseguridad",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 91,
+    "salario_promedio": 623037,
+    "demanda": "Media",
+    "tendencia": "Estable",
+    "desempleo": 2,
+    "tiempo_primer_empleo": 6
+  },
+  {
+    "carrera": "Inteligencia Artificial",
+    "area": "Otras",
+    "insercion_laboral": 77,
+    "salario_promedio": 739183,
+    "demanda": "Alta",
+    "tendencia": "Bajando",
+    "desempleo": 5,
+    "tiempo_primer_empleo": 2
+  },
+  {
+    "carrera": "Redes y Telecomunicaciones",
+    "area": "Otras",
+    "insercion_laboral": 95,
+    "salario_promedio": 741833,
+    "demanda": "Muy alta",
+    "tendencia": "Subiendo",
+    "desempleo": 1,
+    "tiempo_primer_empleo": 7
+  },
+  {
+    "carrera": "Desarrollo de Software",
+    "area": "Informática / Ingeniería",
+    "insercion_laboral": 82,
+    "salario_promedio": 350079,
+    "demanda": "Alta",
+    "tendencia": "Estable",
+    "desempleo": 4,
+    "tiempo_primer_empleo": 10
+  }
+]
