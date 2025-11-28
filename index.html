@@ -32,7 +32,10 @@
         animation: fadeIn 0.7s ease forwards;
     }
 
-    @keyframes fadeIn { from {opacity:0; transform:translateY(10px);} to {opacity:1; transform:translateY(0);} }
+    @keyframes fadeIn { 
+        from {opacity:0; transform:translateY(10px);} 
+        to {opacity:1; transform:translateY(0);} 
+    }
 
     .card {
         background: white;
@@ -45,8 +48,9 @@
         transition: 0.3s;
         opacity: 0;
         animation: fadeIn 0.8s ease forwards 0.2s;
+        position: relative;
     }
-    body.dark .card { background: #1c222b; color:white; }
+    body.dark .card { background: #1c222b; color: white; }
 
     input {
         width: 70%;
@@ -56,7 +60,7 @@
         font-size: 17px;
         transition: 0.3s;
     }
-    input:focus { border-color:#4a73ff; outline:none; }
+    input:focus { border-color: #4a73ff; outline: none; }
 
     #suggestions {
         width: 70%;
@@ -76,35 +80,42 @@
         cursor: pointer;
         transition: 0.2s;
     }
-    #suggestions div:hover { background:#e8e8e8; }
-    body.dark #suggestions { background:#1c222b; }
-    body.dark #suggestions div:hover { background:#2a323d; }
+    #suggestions div:hover { background: #e8e8e8; }
+    body.dark #suggestions { background: #1c222b; }
+    body.dark #suggestions div:hover { background: #2a323d; }
 
     button {
         background: #4a73ff;
-        border:none;
+        border: none;
         padding: 12px 24px;
-        border-radius:10px;
-        color:white;
+        border-radius: 10px;
+        color: white;
         font-size: 16px;
         cursor: pointer;
-        transition:0.3s;
+        transition: 0.3s;
+        margin-top: 10px;
     }
-    button:hover { background:#2f54d8; }
+    button:hover { background: #2f54d8; }
 
     .toggle {
         position: absolute;
-        top:20px;
-        right:20px;
-        background:#ddd;
-        padding:10px 14px;
-        border-radius:10px;
-        cursor:pointer;
-        transition:0.3s;
+        top: 20px;
+        right: 20px;
+        background: #ddd;
+        padding: 10px 14px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
     }
-    body.dark .toggle { background:#333; color:white; }
+    body.dark .toggle { background: #333; color: white; }
 
-    .stats { margin-top:20px; display:flex; gap:12px; flex-wrap:wrap; justify-content:center; }
+    .stats { 
+        margin-top: 20px; 
+        display: flex; 
+        gap: 12px; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
     .stat {
         background: rgba(0,0,0,0.05);
         padding: 12px 16px;
@@ -116,16 +127,24 @@
     canvas { margin-top: 25px; max-width: 100%; }
 
     @media(max-width:600px) {
-        input,#suggestions { width: 95%; }
-        .card { padding:20px; }
+        input, #suggestions { width: 95%; }
+        .card { padding: 20px; }
     }
 </style>
 </head>
 <body>
+
 <div class="toggle" onclick="toggleMode()">Modo oscuro</div>
+
 <h1>Inserción Laboral Argentina</h1>
+
 <div class="card">
-    <input id="busqueda" placeholder="Escribí una carrera..." oninput="predict()" onkeydown="keyControl(event)">
+    <input 
+        id="busqueda" 
+        placeholder="Escribí una carrera..." 
+        oninput="predict()" 
+        onkeydown="keyControl(event)"
+    >
     <div id="suggestions"></div>
     <button onclick="buscar()">Buscar</button>
     <div id="resultado"></div>
@@ -145,62 +164,91 @@ loadData();
 function predict() {
     const text = busqueda.value.toLowerCase();
     const box = document.getElementById('suggestions');
-    if (!text) { box.style.display='none'; return; }
+    if (!text) { box.style.display = 'none'; return; }
 
-    const filtered = allCareers.filter(c => c.carrera.toLowerCase().includes(text)).slice(0,10);
+    const filtered = allCareers
+        .filter(c => c.carrera.toLowerCase().includes(text))
+        .slice(0, 10);
 
-    box.innerHTML = filtered.map((c,i)=>`<div id="sug-${i}" onclick="selectCareer('${c.carrera}')">${highlight(c.carrera,text)}</div>`).join('');
-    box.style.display = filtered.length? 'block':'none';
+    box.innerHTML = filtered
+        .map((c, i) => 
+            `<div id="sug-${i}" onclick="selectCareer('${c.carrera}')">
+                ${highlight(c.carrera, text)}
+            </div>`
+        ).join('');
+
+    box.style.display = filtered.length ? 'block' : 'none';
     selectedIndex = -1;
 }
 
 function highlight(text, part) {
     const idx = text.toLowerCase().indexOf(part.toLowerCase());
-    if (idx===-1) return text;
-    return text.substring(0,idx) + `<strong>` + text.substring(idx,idx+part.length) + `</strong>` + text.substring(idx+part.length);
+    if (idx === -1) return text;
+    return (
+        text.substring(0, idx) +
+        "<strong>" +
+        text.substring(idx, idx + part.length) +
+        "</strong>" +
+        text.substring(idx + part.length)
+    );
 }
 
 function keyControl(e) {
     const items = document.querySelectorAll('#suggestions div');
     if (!items.length) return;
 
-    if (e.key==='ArrowDown') {
-        selectedIndex = (selectedIndex+1) % items.length;
+    if (e.key === 'ArrowDown') {
+        selectedIndex = (selectedIndex + 1) % items.length;
         updateHighlight(items);
     }
-    if (e.key==='ArrowUp') {
-        selectedIndex = (selectedIndex-1+items.length) % items.length;
+    if (e.key === 'ArrowUp') {
+        selectedIndex = (selectedIndex - 1 + items.length) % items.length;
         updateHighlight(items);
     }
-    if (e.key==='Enter' && selectedIndex>=0) {
+    if (e.key === 'Enter' && selectedIndex >= 0) {
         items[selectedIndex].click();
     }
 }
 
 function updateHighlight(items) {
-    items.forEach((el,i)=>{
-        el.style.background = (i===selectedIndex? '#d6ddff':'white');
+    items.forEach((el, i) => {
+        el.style.background = (i === selectedIndex ? '#d6ddff' : 'white');
     });
 }
 
 function selectCareer(name) {
     busqueda.value = name;
-    suggestions.style.display='none';
+    suggestions.style.display = 'none';
     buscar();
 }
 
 function buscar() {
     const carrera = busqueda.value.toLowerCase();
-    const found = allCareers.find(c => c.carrera.toLowerCase()===carrera);
-    if (!found) { resultado.innerHTML='<div style="color:#d33">Carrera no encontrada</div>'; return; }
+    const found = allCareers.find(
+        c => c.carrera.toLowerCase() === carrera
+    );
+
+    if (!found) {
+        resultado.innerHTML = 
+            '<div style="color:#d33">Carrera no encontrada</div>';
+        return;
+    }
 
     resultado.innerHTML = `
         <h3>${found.carrera}</h3>
         <div class='stats'>
-            <div class='stat'>Inserción: <strong>${found.insercion_laboral}%</strong></div>
-            <div class='stat'>Salario: <strong>$${found.salario_promedio}</strong></div>
-            <div class='stat'>Demanda: <strong>${found.demanda}</strong></div>
-            <div class='stat'>Tendencia: <strong>${found.tendencia}</strong></div>
+            <div class='stat'>Inserción: 
+                <strong>${found.insercion_laboral}%</strong>
+            </div>
+            <div class='stat'>Salario: 
+                <strong>$${found.salario_promedio}</strong>
+            </div>
+            <div class='stat'>Demanda: 
+                <strong>${found.demanda}</strong>
+            </div>
+            <div class='stat'>Tendencia: 
+                <strong>${found.tendencia}</strong>
+            </div>
         </div>`;
 
     drawGraph(found);
@@ -212,12 +260,18 @@ function drawGraph(c) {
         type: 'bar',
         data: {
             labels: ['Inserción laboral'],
-            datasets: [{ label: c.carrera, data: [c.insercion_laboral] }]
+            datasets: [{
+                label: c.carrera,
+                data: [c.insercion_laboral]
+            }]
         }
     });
 }
 
-function toggleMode(){ document.body.classList.toggle('dark'); }
+function toggleMode() {
+    document.body.classList.toggle('dark');
+}
 </script>
+
 </body>
 </html>
